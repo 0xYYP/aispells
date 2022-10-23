@@ -163,15 +163,62 @@
     "name": "人物",
     "data": [
       {
-        "name": "年龄",
+        "name": "人数",
         "data": [
-          { "tag": "child",  "class": "prompt", "zh-Hans": "儿童" },
-          { "tag": "bara",  "class": "prompt", "zh-Hans": "大叔" }
+          { "tag": "solo",  "class": "prompt", "zh-Hans": "单人" },
+          { "tag": "1boy",  "class": "prompt", "zh-Hans": "1个男孩" },
+          { "tag": "2boys",  "class": "prompt", "zh-Hans": "2个男孩" },
+          { "tag": "3boys",  "class": "prompt", "zh-Hans": "3个男孩" },
+          { "tag": "4boys",  "class": "prompt", "zh-Hans": "4个男孩" },
+          { "tag": "5boys",  "class": "prompt", "zh-Hans": "5个男孩" },
+          { "tag": "6boys",  "class": "prompt", "zh-Hans": "6+个男孩" },
+          { "tag": "multiple_boys",  "class": "prompt", "zh-Hans": "多个男孩" },
+          { "tag": "1girl",  "class": "prompt", "zh-Hans": "1个女孩" },
+          { "tag": "2girls",  "class": "prompt", "zh-Hans": "2个女孩" },
+          { "tag": "3girls",  "class": "prompt", "zh-Hans": "3个女孩" },
+          { "tag": "4girls",  "class": "prompt", "zh-Hans": "4个女孩" },
+          { "tag": "5girls",  "class": "prompt", "zh-Hans": "5个女孩" },
+          { "tag": "6+girls",  "class": "prompt", "zh-Hans": "6+个女孩" },
+          { "tag": "multiple_girls",  "class": "prompt", "zh-Hans": "多个女孩" }
         ]
       },
       {
-        "name": "种族",
+        "name": "年龄",
         "data": [
+          { "tag": "toddler",  "class": "prompt", "zh-Hans": "幼童" },
+          { "tag": "child",  "class": "prompt", "zh-Hans": "儿童" },
+          { "tag": "shota",  "class": "prompt", "zh-Hans": "正太" },
+          { "tag": "loli",  "class": "prompt", "zh-Hans": "萝莉" },
+          { "tag": "teenage",  "class": "prompt", "zh-Hans": "青年" },
+          { "tag": "bara",  "class": "prompt", "zh-Hans": "大叔" },
+          { "tag": "milf",  "class": "prompt", "zh-Hans": "熟女" },
+          { "tag": "old",  "class": "prompt", "zh-Hans": "老年" }
+        ]
+      },
+      {
+        "name": "性别 | 性倾向",
+        "data": [
+          { "tag": "male",  "class": "prompt", "zh-Hans": "男人" },
+          { "tag": "female",  "class": "prompt", "zh-Hans": "女人" },
+          { "tag": "otoko_no_ko",  "class": "prompt", "zh-Hans": "伪娘" },
+          { "tag": "yuri",  "class": "prompt", "zh-Hans": "百合" },
+          { "tag": "harem",  "class": "prompt", "zh-Hans": "后宫" },
+          { "tag": "genderswap",  "class": "prompt", "zh-Hans": "性转" },
+          { "tag": "yaoi",  "class": "prompt", "zh-Hans": "搞基" }
+        ]
+      },
+      {
+        "name": "血缘关系",
+        "data": [
+          { "tag": "brothers",  "class": "prompt", "zh-Hans": "兄弟" },
+          { "tag": "sisters",  "class": "prompt", "zh-Hans": "姐妹" },
+          { "tag": "siblings",  "class": "prompt", "zh-Hans": "兄弟姐妹" }
+        ]
+      },
+      {
+        "name": "种族 | 职业",
+        "data": [
+          { "tag": "no_humans",  "class": "prompt", "zh-Hans": "非人" },
           { "tag": "angel",  "class": "prompt", "zh-Hans": "天使" },
           { "tag": "bunny_girl",  "class": "prompt", "zh-Hans": "兔娘|兔女郎" },
           { "tag": "cat_girl",  "class": "prompt", "zh-Hans": "猫娘" },
@@ -197,12 +244,7 @@
           { "tag": "mecha_musume",  "class": "prompt", "zh-Hans": "机娘" },
           { "tag": "mermaid",  "class": "prompt", "zh-Hans": "美人鱼" },
           { "tag": "raccoon_girl",  "class": "prompt", "zh-Hans": "浣熊娘" },
-          { "tag": "kitsune",  "class": "prompt", "zh-Hans": "妖狐" }
-        ]
-      },
-      {
-        "name": "身份 | 职业",
-        "data": [
+          { "tag": "kitsune",  "class": "prompt", "zh-Hans": "妖狐" },
           { "tag": "butler",  "class": "prompt", "zh-Hans": "管家" },
           { "tag": "chef",  "class": "prompt", "zh-Hans": "厨师" },
           { "tag": "dancer",  "class": "prompt", "zh-Hans": "舞者" },
